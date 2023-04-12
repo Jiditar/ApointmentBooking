@@ -1,0 +1,39 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>cAppointment</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content [fullscreen]="true" class="background-img" no-scroll padding>
+ 
+  <ion-button
+    (click)="cancelAppointment()"
+    class="cancelAppointment"
+    fill="no"
+    color="danger"
+    style="color: white"
+  >
+    cancel Appointment
+  </ion-button>
+  <ion-button
+    href="./appointment"
+    (click)="backAppointment()"
+    class="back-appointment"
+    fill="no"
+    color="danger"
+    style="color: white"
+  >
+    cancel Appointment
+  </ion-button>
+  <ion-label class="l1" color="dark">
+    Branch: 
+  </ion-label>
+  <ion-label class="l2" color="dark">
+    my date 
+  </ion-label>
+  <ion-label class="l3" color="dark">
+    time 
+  </ion-label>
+
+
+</ion-content>

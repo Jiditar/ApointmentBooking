@@ -1,0 +1,46 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content [fullscreen]="true" class="background-img" no-scroll padding>
+  <ion-button
+    expand="block"
+    (click)="login()"
+    class="login"
+    fill="no"
+    color="danger"
+    style="color: white"
+  >
+    login
+  </ion-button>
+
+  <ion-input
+    placeholder="User Id"
+    size="small"
+    class="userid"
+    type="text"
+    name="loginField"
+    [clearInput]="true"
+    maxlength="15"
+    [required]="true"
+    [(ngModel)]="user.userid"
+  ></ion-input>
+
+  <ion-input 
+    [(ngModel)]="user.password"
+    maxlength="30"
+    placeholder="password"
+    size="small"
+    class="pword"
+    type="password"
+    name="pWordField"
+    [clearInput]="true"
+    [required]="true"
+  ></ion-input>
+
+    <ion-label color="light">{{user.userid}}</ion-label>
+  <p>{{user.userid}}</p>
+  
+</ion-content>

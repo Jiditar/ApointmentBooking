@@ -25,3 +25,16 @@
 #container a {
   text-decoration: none;
 }
+.background-img{
+  --background:url("/assets/iPhone 13/pg2.png") 0 0/100% 100% no-repeat ;
+  position: relative;
+
+}
+
+.menu{
+  
+position: absolute;
+--background:0;
+left: -10px;
+top: 10px;
+}

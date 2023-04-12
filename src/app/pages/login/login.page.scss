@@ -1,0 +1,38 @@
+.background-img{
+    --background:url("/assets/iPhone 13/login.png") 0 0/100% 100% no-repeat ;
+    position: relative;
+}
+.login{
+  display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 10px;
+gap: 31px;
+font-size: small;
+font-weight: lighter;
+font-style: normal;
+position: absolute;
+--background:0;
+--background-hover:#968b80;
+--opacity:0%;
+
+left: 35%;
+top: 63%;
+
+}
+
+.userid{
+  position: absolute;
+  top: 45.7%;
+  left: 27%;
+  font-size:small;
+  color: azure;
+}
+.pword{
+  position: absolute;
+  top: 53%;
+  left: 27%;
+  font-size:small;
+  color: azure;
+}

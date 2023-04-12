@@ -1,0 +1,21 @@
+.background-img{
+    --background:url("/assets/iPhone 13/pg3.png") 0 0/100% 100% no-repeat ;
+    position: relative;
+  
+  }
+  .menu{
+  
+    position: absolute;
+    --background:0;
+    left: 67%;
+    top: 5px;
+    }
+    .appoint-css{
+  
+      position: absolute;
+      --background:0;
+      left: -5%;
+      top: 67%;
+      --opacity:0%;
+
+      }

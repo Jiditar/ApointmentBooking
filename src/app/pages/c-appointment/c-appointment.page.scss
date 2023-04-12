@@ -1,0 +1,74 @@
+.background-img{
+    --background:url("/assets/iPhone 13/pg9.png") 0 0/100% 100% no-repeat ;
+    position: relative;
+}
+.cancelAppointment{
+    position: absolute;
+    top: 66.5%;
+    left: 21%;
+    font-size:small;
+    color: azure;
+     --opacity:0%;
+
+}
+.l1{
+    left: 32%;
+    top: 52%;
+    position: absolute;
+    width: 150px;
+    height: 12px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.l2{
+    left: 32%;
+    top: 55%;
+    position: absolute;
+    width: 150px;
+    height: 12px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.l3{
+    left: 32%;
+    top: 58%;
+    position: absolute;
+    width: 150px;
+    height: 12px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.back-appointment{
+    position: absolute;
+    top: 23.5%;
+    left: 0%;
+    font-size:small;
+    color: azure;
+      --opacity:0%;
+}

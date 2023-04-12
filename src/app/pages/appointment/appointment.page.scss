@@ -1,0 +1,86 @@
+.center{
+    text-justify:auto;
+    text-align: center;
+    width: 100%;
+}
+.background-img{
+    --background:url("/assets/iPhone 13/pg8.png") 0 0/100% 100% no-repeat ;
+    position:relative;
+  }
+.l1{
+    left: 28%;
+    top: 33%;
+    position: absolute;
+    width: 150px;
+    height: 12px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.l2{
+    left: 28%;
+    top: 34.8%;
+    position: absolute;
+    width: 150px;
+    height: 12px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.l3{
+    left: 28%;
+    top: 37%;
+    position: absolute;
+    width: 150px;
+    height: 12px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.but{
+
+    position: absolute;
+    top: 32.3%;
+    left: 71%;
+    font-size:small;
+    color: azure;
+    --opacity:0%;
+  
+
+}
+
+.backbutton{
+
+    position: absolute;
+    top: 24.3%;
+    left: 0%;
+    font-size:small;
+    color: azure;
+    --opacity:0%;
+  
+
+}
